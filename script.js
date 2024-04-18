@@ -49,7 +49,7 @@ class Game {
   generateTweet() {
     let top = $(window).height() / 2 - 150;
     let left = $(window).width() / 2 - 300;
-    window.open("https://twitter.com/intent/tweet?url=https://codepen.io/gregh/full/yVLOyO&amp;text=I scored " + this.score + " points on Coloron! Can you beat my score?&amp;via=greghvns&amp;hashtags=coloron", "TweetWindow", "width=600px,height=300px,top=" + top + ",left=" + left);
+    window.open("https://twitter.com/intent/tweet?url=FAY;text=I scored " + this.score + " points on Coloron! Can you beat my score?&amp;via=greghvns&amp;hashtags=coloron", "TweetWindow", "width=600px,height=300px,top=" + top + ",left=" + left);
   }
 
   /**
@@ -110,14 +110,14 @@ class Game {
    * @return {string} grade
    */
   showGrade(score) {
-    if (score > 30) return "Chuck Norris?";else
-    if (score > 25) return "You're da man";else
-    if (score > 20) return "Awesome";else
-    if (score > 15) return "Great!";else
-    if (score > 13) return "Nice!";else
-    if (score > 10) return "Good Job!";else
-    if (score > 5) return "Really?";else
-    return "Poor...";
+    if (score > 30) return "LU PRO PELER YA?";else
+    if (score > 25) return "NJIRRR GA MUNGKIN";else
+    if (score > 20) return "JAGO BANGET ABANGKUHHH";else
+    if (score > 15) return "KEREN PARAHH!!!";else
+    if (score > 13) return "GG ABIEZZZ!";else
+    if (score > 10) return "MANTAP ABANGKUH!";else
+    if (score > 5) return "NJIRR?";else
+    return "NUB BANGET LUU, CUPU!!";
   }
 
   start() {
